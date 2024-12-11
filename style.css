@@ -49,10 +49,70 @@ menu a:hover{
     height: 90%;
     background-image: linear-gradient(to right,#8D7792, #C9C5CB, #C9C5CB, #8D7792);
 }
-.cont11{
-    position: relative;
-    opacity: 0.2;
+.container1_img{
     width: 60%;
-    height: 99%;
+    margin-top: -33%;
+    margin-left: 40%;
+}
+.cont1_1{
+    position: relative;
+    width: 45%;
+    height: 70%;
+    margin-top: 6.5%;
+    margin-left: 3%;
+    border-radius: 0% 40% 0% 40%;
+    background-color: #330b4761;
+    align-content: center;
+}
+.cont1_2{
+    color: white;
+    width:90%;
+    height: 90%;
+
+}
+.main1{
+    color: white;
+    font-size: 42px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: -41%;
+    text-align: center;
+    margin-left: 5%;
+}
+.main2{
+    color: white;
+    font-size: 38px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: -41%;
+    text-align: center;
+    margin-left: 11%;
+}
+.main3{
+    color: black;
+    font-size: 14px;
+    font-family: cursive;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 12px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    width: 90%;
+}
+.explore-btn{
+    font-size: 20px;
+    color: rgb(17, 12, 45);
+    padding: 10px 20px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    background-color: transparent;
+    border: 3px solid rgb(17, 12, 45);
+    border-radius: 15px;
+    margin-left: 39%;
+    text-decoration: none;
+}
+.explore-btn:hover{
+    color: white;
     background-color: #330b47;
+    border: 3px solid #330b47;
 }
