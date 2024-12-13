@@ -13,7 +13,7 @@ nav{
 menu a{
     font-size: large;
     color: black;
-    margin-left: 85px;
+    margin-left: 70px;
     text-decoration: none;
     font-family: cursive;
 }
@@ -480,3 +480,24 @@ menu a:hover{
     padding-top: 3px;
 }
 /*Home page END*/
+/*Contact Page start*/
+.container7{
+    position: absolute;
+    width: 80%;
+    height: 85%;
+    background-color: #56320ea1;
+    display: flex;
+    margin-top: 1%;
+    margin-left: 10%;
+    border-radius: 100px 100px;
+}
+.cont7_1{
+    position: relative;
+    width: 40%;
+    height: 100%;
+}
+.cont7_2{
+    position: relative;
+    width: 60%;
+    height: 100%;
+}
