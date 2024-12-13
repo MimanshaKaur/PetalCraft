@@ -57,7 +57,7 @@ menu a:hover{
     height: 105%;
 }
 .cont1_1{
-    position: relative;
+    position: absolute;
     width: 1200px;
     height: 500px;
     margin-top: -45.7%;
@@ -66,36 +66,33 @@ menu a:hover{
     border-radius: 0% 0% 700px 700px;
 }
 .main1{
-    position: relative;
+    position: absolute;
     color: white;
-    font-size: 42px;
+    font-size: 50px;
     font-weight: bold;
-    margin-top: 0%;
+    margin: 5% 21%;
     text-align: center;
-    margin-left: 5%;
 }
 .main2{
-    position: relative;
+    position: absolute;
     color: white;
-    font-size: 38px;
+    font-size: 44px;
     font-weight: bold;
-    margin-top: -41%;
+    margin: 10% 26%;
     text-align: center;
-    margin-left: 11%;
 }
 .main3{
     color: black;
-    font-size: 14px;
+    font-size: 16px;
     font-family: cursive;
     text-align: center;
-    margin-left: 5%;
-    margin-top: 12px;
-    padding-top: 10px;
-    padding-bottom: 40px;
-    width: 90%;
+    margin-left: 21%;
+    margin-top: 16%;
+    padding-bottom: 22px;
+    width: 58%;
 }
 .explore-btn{
-    font-size: 20px;
+    font-size: 15px;
     color: white;
     padding: 10px 20px;
     font-weight: bolder;
@@ -103,8 +100,7 @@ menu a:hover{
     background-color: #BB7A3A;
     border: 1px solid #BB7A3A;
     border-color: transparent;
-    border-radius: 15px;
-    margin-left: 39%;
+    margin-left: 46%;
     text-decoration: none;
 }
 .explore-btn:hover{
@@ -114,10 +110,9 @@ menu a:hover{
     color: white;
 }
 .icons{
-    width: 25%;
+    width: 9%;
     height: 10%;
-    background-color: red;
     margin-top: -5.5%;
-    margin-left: 5%;
+    margin-left: 88%;
     justify-content: space-evenly;
 }
