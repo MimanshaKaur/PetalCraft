@@ -49,8 +49,6 @@ menu a:hover{
     color: black;
     width: 100%;
     height: 90%;
-    background-image: linear-gradient(to right,#BB7A3A, #d4a373, #d4a373, #BB7A3A);
-
 }
 .container1_img{
     width: 100%;
@@ -106,7 +104,7 @@ menu a:hover{
 .explore-btn:hover{
     cursor: pointer;
     background-color: #BB7A3A;
-    border: 1px solid white;
+    border: 1px solid #835c35;
     color: white;
 }
 .icons{
@@ -115,4 +113,367 @@ menu a:hover{
     margin-top: -5.5%;
     margin-left: 88%;
     justify-content: space-evenly;
+}
+.container2{
+    position: absolute;
+    color: black;
+    width: 100%;
+    height: 90%;
+    margin-top: 45%;
+    background-color: #d4a373;
+}
+.cont2_1{
+    width: 15%;
+    font-size: small;
+    color: #BB7A3A;
+    margin: 2% 43.4%;
+    font-family: sans-serif;
+}
+.main4{
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-left:-2.5%;font-family: 'Times New Roman', Times, serif;
+}
+.cont2_2{
+    position: absolute;
+    width: 100%;
+    height: 75%;
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.cont2_2_1{
+    position: relative;
+    width: 20%;
+    height: 48%;
+    margin-top: 3%;
+    border-top-left-radius: 70%;
+    border-top-right-radius: 70%;
+}
+.cont2_2_1_img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border: 1px solid #835c35;
+}
+.cont2_2_2{
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    margin-top: 77%;
+    background-color: #BB7A3A;
+    border: 1px solid #835c35;
+}
+.main5{
+    width: 71%;
+    font-size: 25px;
+    color: #fff;
+    margin: 5% 14.5%;
+    font-family: sans-serif;
+}
+.main5_1{
+    position: relative;
+    width: 80%;
+    margin: 0% 10%;
+    text-align: center;
+}
+.container3{
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    margin-top: 88%;
+    background-color: #d4a3731f;
+}
+.cont3{
+    position: relative;
+    width: 55%;
+    height: 100%;
+    margin: 4% 0%;
+}
+.cont3_1{
+    position: relative;
+    font-size: small;
+    color: #BB7A3A;
+    text-align: center;
+    font-family: sans-serif;
+}
+.cont3_2{
+    position: relative;
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.cont3_3{
+    position: relative;
+    width: 75%;
+    font-size: large;
+    color:#BB7A3A;
+    text-align: center;
+    margin: 5% 12.5%;
+}
+.letsgo-btn{
+    position: relative;
+    font-family: sans-serif;
+    padding: 10px 22px;
+    font-size: small;
+    color: white;
+    background-color: #BB7A3A;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 0% 43%;
+    border-radius: 10px 10px;
+}
+.letsgo-btn:hover{
+    border: 1.5px solid #835c35;
+}
+.container4{
+    width: 100%;
+    height: 80%;
+    margin-top: 116%;
+    background-color: #BB7A3A;
+    position: absolute;
+}
+.cont4_img{
+    position: relative;
+    width: 33%;
+    height: 85%;
+    margin-top: -27.8%;
+    margin-left: 60%;
+}
+.cont4_1{
+    position: relative;
+    width: 21%;
+    font-size: x-small;
+    color: #f5cba2;
+    text-align: center;
+    margin: -2% 40.5%;
+    font-family: sans-serif;
+}
+.main6{
+    width: 146%;
+    position: relative;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0% -20%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.cont4_2{
+    position: relative;
+    width: 100%;
+    height: 70%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.cont4_2_1{
+    position: relative;
+    width: 17%;
+    height: 72%;
+}
+.cont4_3{
+    position: relative;
+    color: black;
+    width: 30%;
+    height: 7%;
+    margin-top: 5px;
+    margin-left: 8%;
+    font-size: small;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+.cont4_4{
+    position: relative;
+    color: black;
+    width: 30%;
+    height: 7%;
+    margin-top: -8.5%;
+    margin-left: 32%;
+    font-size: small;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+.cont4_5{
+    position: absolute;
+    color: black;
+    width: 30%;
+    height: 7%;
+    margin-top: -7%;
+    margin-left: 75%;
+    font-size: small;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+.cont4_5:hover{
+    color: white;
+}
+.container5{
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    background-color: #d4a373;
+    justify-items: center;
+    margin-top: 152%;
+}
+.cont5{
+    position: relative;
+    margin-top: 3.2%;
+    width: 40%;
+    height: 140%;
+    background-color: #bb7a3a91;
+    justify-items: center;
+    border-top-left-radius: 90%;
+    border-top-right-radius: 90%;
+}
+.cont5_1{
+    position: relative;
+    width: 70%;
+    height: fit-content;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 20%;
+}
+.cont5_2{
+    position: relative;
+    font-size: 15px;
+    width: 75%;
+    color: #272727;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 5%;
+    padding-bottom: 7%;
+}
+.talk-btn{
+    position: relative;
+    font-family: sans-serif;
+    padding: 10px 22px;
+    font-size: small;
+    color: white;
+    background-color: #BB7A3A;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 10px 10px;
+}
+.talk-btn:hover{
+    border: 1.5px solid #835c35;
+}
+.footer{
+    position: absolute;
+    margin-top: 180%;
+    width: 100%;
+    height: 35%;
+    background-color: #d4a373;
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer1{
+    width: 48%;
+    height: 88%;
+    margin-top: 1%;
+}
+.email-box{
+    width: 40%;
+    height: 25px;
+    background-color: #fff;
+    color: black;
+    font-weight: 600;
+    font-size: small;
+    margin: -1% 0%;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 2px solid #835c35;
+}
+.email-box::placeholder{
+    color: black;
+}
+.email-box:hover{
+    background-color: #dddddd;
+    border: 2px solid black;
+}
+.subscribe{
+    width: 25%;
+    height: 40px;
+    background-color: #BB7A3A;
+    color: #fff;
+    font-weight: 600;
+    padding: 0px 24px;
+    font-size: small;
+    margin-left: 5%;
+    border: 1px solid transparent;
+    border-radius: 10%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.subscribe:hover{
+    background-color: #56320e;
+    border: 1px solid #835c35;
+}
+.footer2{
+    width: 40%;
+    height: 88%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer2_1{
+    margin-top: 1%;
+    position: relative;
+    width: 30%;
+    height: 100%;
+}
+.footer2_2{
+    position: relative;
+    width: 30%;
+    height: 100%;
+    text-align: center;
+}
+.footer2_2 a{
+    color: black;
+    font-weight: 600;
+    font-size: small;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+}
+.footer2_2 a:hover{
+    color: white;
+}
+.footer2_3{
+    position: relative;
+    width: 30%;
+    height: 100%;
+    text-align: center;
+}
+.footer2_3 a{
+    color: black;
+    font-weight: 600;
+    font-size: small;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+}
+.footer2_3 a:hover{
+    color: white;
+}
+.container6{
+    position: absolute;
+    width: 100%;
+    height: 25px;
+    color: white;
+    background-color: #BB7A3A;
+    margin-top: 12%;
 }
