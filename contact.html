@@ -35,27 +35,26 @@
                 <form id="contact-form">
                     <div class="form-grp">
                         <label for="first-name">First Name</label><br>
-                        <input type="text" placeholder="Enter First Name" required>
+                        <input type="text" id="first-name" placeholder="Enter First Name">
                         <div class="error-msg" id="first_name_error">First Name is Required.</div>
                     </div>
                     <div class="form-grp">
                         <label for="last-name">Last Name</label><br>
-                        <input type="text" placeholder="Enter Last Name" required>
+                        <input type="text" id="last-name" placeholder="Enter Last Name">
                         <div class="error-msg" id="last_name_error">Last Name is Required.</div>
                     </div>
                     <div class="form-grp">
                         <label for="email-address">Email Address</label><br>
-                        <input type="email" placeholder="Enter Email Address" required>
+                        <input type="email" id="email-address" placeholder="Enter Email Address">
                         <div class="error-msg" id="email_error">Email Address is Required.</div>
                     </div>
                     <div class="form-grp">
                         <label for="phone">Phone Number</label><br>
                         <input type="text" placeholder="Enter Phone Number">
-                        <div class="error-msg" id="phone_error">Phone Number is Required.</div>
                     </div>
                     <div class="form-grp">
                         <label for="message">Your Message</label><br>
-                        <textarea type="text" placeholder="Enter Your Message" required></textarea>
+                        <textarea type="text" id="message" placeholder="Enter Your Message"></textarea>
                         <div class="error-msg" id="message_error">Message is Required.</div>
                     </div>
                     <button type="submit" class="contact_submit-btn">SUBMIT</button>
@@ -104,52 +103,6 @@
         </div>
     </section>
     <!--footer end-->
-    <!--Script Start-->
-    <script>
-            document.getElementById('contact-form').addEventListener('submit', function(event) {
-                event.preventDefault();
-                let isValid=true;
-
-                const FirstName = document.getElementById('first-name');
-                const LastName = document.getElementById('last-name');
-                const email = document.getElementById('email-address');
-                const message = document.getElementById('message');
-
-                if(!FirstName.value.trim()) {
-                    isValid=false;
-                    document.getElementById('first_name_error').style.display = 'block';
-                }
-                else{
-                    document.getElementById('first_name_error').style.display = 'none';
-                }
-
-                if (!LastName.value.trim()) {
-                    isValid = false;
-                    document.getElementById('last_name_error').style.display = 'block';
-                } else {
-                    document.getElementById('last_name_error').style.display = 'none';
-                }
-
-                if(!email.value.trim() || !email.value.includes('@')) {
-                    isValid=false
-                    document.getElementById('email_error').style.display = 'block';
-                }
-                else{
-                    document.getElementById('email_error').style.display='none';
-                }
-
-                if (!message.value.trim()) {
-                    isValid = false;
-                    document.getElementById('message_error').style.display = 'block';
-                } else {
-                    document.getElementById('message_error').style.display = 'none';
-                }
-
-                if (isValid) {
-                    document.getElementById('success').style.display = 'block';
-                    document.getElementById('contact-form').reset();
-                }
-            });
-    </script>
+    <script src="./script.js"></script>
 </body>
 </html>
