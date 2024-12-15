@@ -25,9 +25,12 @@ menu a:hover{
     height: 50px;
 }
 .login-btn{
+    text-align: center;
+    text-decoration: none;
     font-size: medium;
     width: 200px;
-    height: 50px;
+    height: 35px;
+    padding-top: 14px;
     color: white;
     background-color: #BB7A3A;
     border-color: transparent;
@@ -606,6 +609,9 @@ menu a:hover{
     font-weight: bold;
     color: #e48d35;
 }
+.container8_1 a:hover{
+    color: rgb(165, 164, 164);
+}
 .container8_2{
     position: relative;
     width: 30%;
@@ -637,6 +643,7 @@ menu a:hover{
 }
 .loginPage-btn{
     width: 70%;
+    text-decoration: none;
     color: #fff;
     font-size: medium;
     font-weight: bold;
@@ -651,6 +658,7 @@ menu a:hover{
     background-color: #56320e;
 }
 .login_success{
+    position: relative;
     display: none;
     font-size: medium;
     color: #5be05b;
@@ -658,3 +666,133 @@ menu a:hover{
     margin-left: 10%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+.container9{
+    position: relative;
+    width: 30%;
+    height: 65%;
+    padding-top: 30px;
+    color: white;
+    font-size: 20px;
+    background-color: #56320ecf;
+    border: 2px solid black;
+    border-radius: 15px ;
+    justify-items: center;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 9%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container9_1{
+    text-align: center;
+    width: 80%;
+    margin-top: 5%;
+}
+.container9_1 label{
+    color: #fff;
+    font-size: medium;
+}
+.forget_pwd{
+    color: rgb(0 168 255);
+    text-decoration: none;
+    font-size: 12px;
+}
+.Register-btn{
+    text-decoration: none;
+    width: 70%;
+    color: #fff;
+    font-size: medium;
+    font-weight: bold;
+    padding: 5px 20px;
+    background-color: #BB7A3A;
+    border-radius: 15px;
+    margin-top: 10%;
+    border: 2px solid #BB7A3A;
+    cursor: pointer;
+}
+.Register-btn:hover{
+    background-color: #56320e;
+}
+.register_success{
+    position: relative;
+    display: none;
+    font-size: medium;
+    color: #5be05b;
+    margin-top: 10px;
+    margin-left: 10%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container10{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-image:linear-gradient(to right, #BB7A3A, #d4a373, #d4a373, #BB7A3A);
+}
+.container10_1{
+    position: relative;
+    width: 60%;
+    height: 100%;
+    text-align: justify;
+    flex: 1;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.container10_1 h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 65px;
+    color: white;
+}
+.container10_1 p{
+    font-size: medium;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container10_2{
+    position: relative;
+    flex: 2;
+    width: 40%;
+    height: 100%;
+}
+.container10_2 img{
+    width: 70%;
+    height: 60%;
+    position: relative;
+    border-radius: 25px;
+    margin-left: 15%;
+    margin-top: 11%;
+}
+.container11{
+    position: absolute;
+    color: black;
+    width: 100%;
+    height: 90%;
+    margin-top: 42%;
+    background-color: #e8dacc;
+}
+.cont11_1{
+    width: 50%;
+    font-size: large;
+    color: #BB7A3A;
+    margin: 2% 36%;
+    font-family: sans-serif;
+}
+.cont11_1 p{
+    text-align: center;
+    width: 150%;
+    color: #4a2c0d;
+    margin: 0% -48%;
+}
+.cont11_2{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+.cont11_2 img{
+    position: relative;
+    width: 20%;
+    height: 80%;
+    border: 2px solid #4a2c0d;
+    border-radius: 25px;
+}
+
+

@@ -24,7 +24,7 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     }
 
     if(!email.value.trim() || !email.value.includes('@')) {
-        isValid=false
+        isValid=false ;
         document.getElementById('email_error').style.display = 'block';
     }
     else{
@@ -41,33 +41,5 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     if (isValid) {
         document.getElementById('success').style.display = 'block';
         document.getElementById('contact-form').reset();
-    }
-});
-
-//login page form validation
-document.getElementById('login-form').addEventListener('submit', function(event){
-    event.preventDefault();
-    let isValid = true;
-
-    const email = document.getElementById('Email-address');
-    const pwd = document.getElementById('Password');
-
-    if(!email.value.trim() || !email.value.includes('@')) {
-        isValid = false;
-        document.getElementById('Email_error').style.display = 'block';
-    }else {
-        document.getElementById('Email_error').style.display = 'none';
-    }
-
-    if(!pwd.value.trim()) {
-        isValid = false;
-        document.getElementById('Password_error').style.display = 'block';
-    }else {
-        document.getElementById('Password_error').style.display = 'none';
-    }
-
-    if(isValid){
-        document.getElementById('login_success').style.display = 'block';
-        document.getElementById('login-form').reset();
     }
 });
